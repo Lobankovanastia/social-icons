@@ -1,0 +1,14 @@
+import { __decorate } from "tslib";
+import { NgModule } from '@angular/core';
+import { SocialIconsLibComponent } from './social-icons-lib.component';
+let SocialIconsLibModule = class SocialIconsLibModule {
+};
+SocialIconsLibModule = __decorate([
+    NgModule({
+        declarations: [SocialIconsLibComponent],
+        imports: [],
+        exports: [SocialIconsLibComponent]
+    })
+], SocialIconsLibModule);
+export { SocialIconsLibModule };
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoic29jaWFsLWljb25zLWxpYi5tb2R1bGUuanMiLCJzb3VyY2VSb290Ijoibmc6Ly9zb2NpYWwtaWNvbnMtbGliLyIsInNvdXJjZXMiOlsibGliL3NvY2lhbC1pY29ucy1saWIubW9kdWxlLnRzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiI7QUFBQSxPQUFPLEVBQUUsUUFBUSxFQUFFLE1BQU0sZUFBZSxDQUFDO0FBQ3pDLE9BQU8sRUFBRSx1QkFBdUIsRUFBRSxNQUFNLDhCQUE4QixDQUFDO0FBVXZFLElBQWEsb0JBQW9CLEdBQWpDLE1BQWEsb0JBQW9CO0NBQUksQ0FBQTtBQUF4QixvQkFBb0I7SUFOaEMsUUFBUSxDQUFDO1FBQ1IsWUFBWSxFQUFFLENBQUMsdUJBQXVCLENBQUM7UUFDdkMsT0FBTyxFQUFFLEVBQ1I7UUFDRCxPQUFPLEVBQUUsQ0FBQyx1QkFBdUIsQ0FBQztLQUNuQyxDQUFDO0dBQ1csb0JBQW9CLENBQUk7U0FBeEIsb0JBQW9CIiwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IHsgTmdNb2R1bGUgfSBmcm9tICdAYW5ndWxhci9jb3JlJztcbmltcG9ydCB7IFNvY2lhbEljb25zTGliQ29tcG9uZW50IH0gZnJvbSAnLi9zb2NpYWwtaWNvbnMtbGliLmNvbXBvbmVudCc7XG5cblxuXG5ATmdNb2R1bGUoe1xuICBkZWNsYXJhdGlvbnM6IFtTb2NpYWxJY29uc0xpYkNvbXBvbmVudF0sXG4gIGltcG9ydHM6IFtcbiAgXSxcbiAgZXhwb3J0czogW1NvY2lhbEljb25zTGliQ29tcG9uZW50XVxufSlcbmV4cG9ydCBjbGFzcyBTb2NpYWxJY29uc0xpYk1vZHVsZSB7IH1cbiJdfQ==
