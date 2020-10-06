@@ -119,6 +119,50 @@
           }
         }
       }
-    }},
-  "defaultProject": "social-icons"
+    },
+    "social-icons-lib": {
+      "projectType": "library",
+      "root": "projects/social-icons-lib",
+      "sourceRoot": "projects/social-icons-lib/src",
+      "prefix": "lib",
+      "architect": {
+        "build": {
+          "builder": "@angular-devkit/build-ng-packagr:build",
+          "options": {
+            "tsConfig": "projects/social-icons-lib/tsconfig.lib.json",
+            "project": "projects/social-icons-lib/ng-package.json"
+          },
+          "configurations": {
+            "production": {
+              "tsConfig": "projects/social-icons-lib/tsconfig.lib.prod.json"
+            }
+          }
+        },
+        "test": {
+          "builder": "@angular-devkit/build-angular:karma",
+          "options": {
+            "main": "projects/social-icons-lib/src/test.ts",
+            "tsConfig": "projects/social-icons-lib/tsconfig.spec.json",
+            "karmaConfig": "projects/social-icons-lib/karma.conf.js"
+          }
+        },
+        "lint": {
+          "builder": "@angular-devkit/build-angular:tslint",
+          "options": {
+            "tsConfig": [
+              "projects/social-icons-lib/tsconfig.lib.json",
+              "projects/social-icons-lib/tsconfig.spec.json"
+            ],
+            "exclude": [
+              "**/node_modules/**"
+            ]
+          }
+        }
+      }
+    }
+  },
+  "defaultProject": "social-icons",
+  "cli": {
+    "analytics": false
+  }
 }
