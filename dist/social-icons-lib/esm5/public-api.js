@@ -1,8 +1,0 @@
-/*
- * Public API Surface of social-icons-lib
- */
-export * from './lib/social-icons-lib.service';
-export * from './lib/social-icons-lib.component';
-export * from './lib/social-icons-lib.module';
-export * from './lib/doctolib';
-//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoicHVibGljLWFwaS5qcyIsInNvdXJjZVJvb3QiOiJuZzovL3NvY2lhbC1pY29ucy1saWIvIiwic291cmNlcyI6WyJwdWJsaWMtYXBpLnRzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBOztHQUVHO0FBRUgsY0FBYyxnQ0FBZ0MsQ0FBQztBQUMvQyxjQUFjLGtDQUFrQyxDQUFDO0FBQ2pELGNBQWMsK0JBQStCLENBQUM7QUFDOUMsY0FBYyxnQkFBZ0IsQ0FBQyIsInNvdXJjZXNDb250ZW50IjpbIi8qXG4gKiBQdWJsaWMgQVBJIFN1cmZhY2Ugb2Ygc29jaWFsLWljb25zLWxpYlxuICovXG5cbmV4cG9ydCAqIGZyb20gJy4vbGliL3NvY2lhbC1pY29ucy1saWIuc2VydmljZSc7XG5leHBvcnQgKiBmcm9tICcuL2xpYi9zb2NpYWwtaWNvbnMtbGliLmNvbXBvbmVudCc7XG5leHBvcnQgKiBmcm9tICcuL2xpYi9zb2NpYWwtaWNvbnMtbGliLm1vZHVsZSc7XG5leHBvcnQgKiBmcm9tICcuL2xpYi9kb2N0b2xpYic7XG4iXX0=
