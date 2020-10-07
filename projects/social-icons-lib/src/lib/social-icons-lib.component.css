@@ -1,0 +1,7 @@
+.undefined {
+  font-weight: bold;
+}
+.social-icon .svg {
+  display: block;
+  margin-bottom: -3px;
+}
