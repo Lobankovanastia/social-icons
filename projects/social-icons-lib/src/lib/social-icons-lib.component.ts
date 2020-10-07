@@ -35,7 +35,7 @@ export class SocialIconsLibComponent implements OnInit {
   }
 
   public iconExists(): boolean {
-    return this.awesomeIconsProvider.hasIcon(this.brand) || this.customBrandsProvider.hasIcon(this.brand);
+    return this.awesomeIconsProvider.hasIcon(this.brand.toLowerCase()) || this.customBrandsProvider.hasIcon(this.brand.toLowerCase());
   }
 
   getSvg(): SafeHtml{
